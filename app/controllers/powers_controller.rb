@@ -1,5 +1,6 @@
 class PowersController < ApplicationController
   before_action :set_power, only: %i[ show edit update destroy ]
+  before_action :logged_in_user
 
   # GET /powers or /powers.json
   def index

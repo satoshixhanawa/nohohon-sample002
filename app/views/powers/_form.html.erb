@@ -11,85 +11,59 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :e1, style: "display: block" %>
-    <%= form.number_field :e1 %>
-  </div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">電力量</th>
+      <th scope="col">単価</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><%= form.number_field :e1 %></td>
+      <td><%= form.number_field :p1 %></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><%= form.number_field :e2 %></td>
+      <td><%= form.number_field :p2 %></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><%= form.number_field :e3 %></td>
+      <td><%= form.number_field :p3 %></td>
+    </tr>
+    <tr>
+      <th scope="row">４</th>
+      <td><%= form.number_field :e4 %></td>
+      <td><%= form.number_field :p4 %></td>
+    </tr>
+   <tr>
+      <th scope="row">5</th>
+      <td><%= form.number_field :e5 %></td>
+      <td><%= form.number_field :p5 %></td>
+    </tr>
+   <tr>
+      <th scope="row">6</th>
+      <td><%= form.number_field :e6 %></td>
+      <td><%= form.number_field :p6 %></td>
+    </tr>
+   <tr>
+      <th scope="row">7</th>
+      <td><%= form.number_field :e7 %></td>
+      <td><%= form.number_field :p7 %></td>
+    </tr>
+   <tr>
+      <th scope="row">8</th>
+      <td><%= form.number_field :e8 %></td>
+      <td><%= form.number_field :p8 %></td>
+    </tr>
+   </tbody>
+</table>
 
-  <div>
-    <%= form.label :e2, style: "display: block" %>
-    <%= form.number_field :e2 %>
-  </div>
 
-  <div>
-    <%= form.label :e3, style: "display: block" %>
-    <%= form.number_field :e3 %>
-  </div>
-
-  <div>
-    <%= form.label :e4, style: "display: block" %>
-    <%= form.number_field :e4 %>
-  </div>
-
-  <div>
-    <%= form.label :e5, style: "display: block" %>
-    <%= form.number_field :e5 %>
-  </div>
-
-  <div>
-    <%= form.label :e6, style: "display: block" %>
-    <%= form.number_field :e6 %>
-  </div>
-
-  <div>
-    <%= form.label :e7, style: "display: block" %>
-    <%= form.number_field :e7 %>
-  </div>
-
-  <div>
-    <%= form.label :e8, style: "display: block" %>
-    <%= form.number_field :e8 %>
-  </div>
-
-  <div>
-    <%= form.label :p1, style: "display: block" %>
-    <%= form.number_field :p1 %>
-  </div>
-
-  <div>
-    <%= form.label :p2, style: "display: block" %>
-    <%= form.number_field :p2 %>
-  </div>
-
-  <div>
-    <%= form.label :p3, style: "display: block" %>
-    <%= form.number_field :p3 %>
-  </div>
-
-  <div>
-    <%= form.label :p4, style: "display: block" %>
-    <%= form.number_field :p4 %>
-  </div>
-
-  <div>
-    <%= form.label :p5, style: "display: block" %>
-    <%= form.number_field :p5 %>
-  </div>
-
-  <div>
-    <%= form.label :p6, style: "display: block" %>
-    <%= form.number_field :p6 %>
-  </div>
-
-  <div>
-    <%= form.label :p7, style: "display: block" %>
-    <%= form.number_field :p7 %>
-  </div>
-
-  <div>
-    <%= form.label :p8, style: "display: block" %>
-    <%= form.number_field :p8 %>
-  </div>
 
   <div>
     <%= form.submit %>
