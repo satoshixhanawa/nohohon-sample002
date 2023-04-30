@@ -1,0 +1,37 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  e1: 1
+  e2: 1
+  e3: 1
+  e4: 1
+  e5: 1
+  e6: 1
+  e7: 1
+  e8: 1
+  p1: 1
+  p2: 1
+  p3: 1
+  p4: 1
+  p5: 1
+  p6: 1
+  p7: 1
+  p8: 1
+
+two:
+  e1: 1
+  e2: 1
+  e3: 1
+  e4: 1
+  e5: 1
+  e6: 1
+  e7: 1
+  e8: 1
+  p1: 1
+  p2: 1
+  p3: 1
+  p4: 1
+  p5: 1
+  p6: 1
+  p7: 1
+  p8: 1

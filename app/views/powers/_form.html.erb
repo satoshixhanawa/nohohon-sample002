@@ -1,0 +1,97 @@
+<%= form_with(model: power) do |form| %>
+  <% if power.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(power.errors.count, "error") %> prohibited this power from being saved:</h2>
+
+      <ul>
+        <% power.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :e1, style: "display: block" %>
+    <%= form.number_field :e1 %>
+  </div>
+
+  <div>
+    <%= form.label :e2, style: "display: block" %>
+    <%= form.number_field :e2 %>
+  </div>
+
+  <div>
+    <%= form.label :e3, style: "display: block" %>
+    <%= form.number_field :e3 %>
+  </div>
+
+  <div>
+    <%= form.label :e4, style: "display: block" %>
+    <%= form.number_field :e4 %>
+  </div>
+
+  <div>
+    <%= form.label :e5, style: "display: block" %>
+    <%= form.number_field :e5 %>
+  </div>
+
+  <div>
+    <%= form.label :e6, style: "display: block" %>
+    <%= form.number_field :e6 %>
+  </div>
+
+  <div>
+    <%= form.label :e7, style: "display: block" %>
+    <%= form.number_field :e7 %>
+  </div>
+
+  <div>
+    <%= form.label :e8, style: "display: block" %>
+    <%= form.number_field :e8 %>
+  </div>
+
+  <div>
+    <%= form.label :p1, style: "display: block" %>
+    <%= form.number_field :p1 %>
+  </div>
+
+  <div>
+    <%= form.label :p2, style: "display: block" %>
+    <%= form.number_field :p2 %>
+  </div>
+
+  <div>
+    <%= form.label :p3, style: "display: block" %>
+    <%= form.number_field :p3 %>
+  </div>
+
+  <div>
+    <%= form.label :p4, style: "display: block" %>
+    <%= form.number_field :p4 %>
+  </div>
+
+  <div>
+    <%= form.label :p5, style: "display: block" %>
+    <%= form.number_field :p5 %>
+  </div>
+
+  <div>
+    <%= form.label :p6, style: "display: block" %>
+    <%= form.number_field :p6 %>
+  </div>
+
+  <div>
+    <%= form.label :p7, style: "display: block" %>
+    <%= form.number_field :p7 %>
+  </div>
+
+  <div>
+    <%= form.label :p8, style: "display: block" %>
+    <%= form.number_field :p8 %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
