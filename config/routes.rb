@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   post   '/login',   to: 'sessions#create'
   get '/logout',  to: 'sessions#destroy'
   get 'pages/about'
-  root "pages#homepage"
+  get 'pages/homepage'
+  #root "pages#homepage"
+  root "powers#index"
   resources :powers
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
